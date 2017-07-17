@@ -7,7 +7,7 @@ s_e_t = "4"
 esci = "99"
 o = "-O"
 a = "-A"
-no = "nessun parametro"
+nop = "nessun parametro"
 x = "-X"
 chiocciola = "@"
 si = "si"
@@ -39,7 +39,7 @@ if scelta == nmap:
         os.system("sudo nmap -A " + str(ip))
         print (" ")
         print (">> Scansione eseguita alla perfezione :D ")
-    elif parametro == no:
+    elif parametro == nop:
         os.system("nmap " + str(ip))
         print (" ")        
         print (">> Scansione eseguita alla perfezione :D ")
